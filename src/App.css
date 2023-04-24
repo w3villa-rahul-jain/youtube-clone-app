@@ -4,3 +4,11 @@
   box-sizing: border-box;
 }
 
+.search-bar{
+  border: none;
+}
+
+.search-bar:focus{
+  outline: none;
+}
+
