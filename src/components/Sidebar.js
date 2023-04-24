@@ -13,7 +13,6 @@ const Sidebar = () => {
                 <button className="category-btn" style={{background: category.name === selectedCategory && 'red'}}>
                     <span style={{opacity: category.name === selectedCategory ? 1 : .8}}>{category.icon}</span>
                     <span style={{opacity: category.name === selectedCategory ? 1 : .8}}>{category.name}</span>
-             
                 </button>
             ))
         }

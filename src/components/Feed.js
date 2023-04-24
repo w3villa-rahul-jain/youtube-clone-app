@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Box, Stack, Typography } from '@mui/material'
 import Sidebar from './Sidebar'
+import Videos from './Videos'
 
 
 const Feed = () => {
@@ -12,6 +13,12 @@ const Feed = () => {
             <Typography variant="body2">
                 Copyright 2023 By Rahul Jain
             </Typography>
+        </Box>
+        <Box p={2} sx={{overflowY: "auto", height: "90vh", flex:2}}>
+            <Typography variant="h4" fontWeight="bold" mb={2}>
+                New <span style={{color: "red"}}>Videos</span>
+            </Typography>
+            <Videos videos={[]} />
         </Box>
     </Stack>
   )
