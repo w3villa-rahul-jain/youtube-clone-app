@@ -12,3 +12,28 @@
   outline: none;
 }
 
+::-webkit-scrollbar{
+  width: 0;
+  height: 5px;
+}
+
+
+.category-btn{
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin: 2px 5px;
+  color: white;
+  background: black;
+  gap: 5px;
+  transition: all .2s ease-in-out;
+
+}
+
+
+.category-btn:hover{
+  background-color: red;
+}
