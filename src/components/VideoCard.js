@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Typography, Card, CardContent, CardMedia, sliderClasses } from '@mui/material'
+import { Typography, Card, CardContent, CardMedia } from '@mui/material'
 import { CheckCircle } from '@mui/icons-material'
 
-import { demoThumbnailUrl, demoVideoUrl, demoChannelTitle, demoVideoTitle, demoProfilePicture } from '../utils/constants'
+import {  demoVideoUrl, demoChannelTitle, demoVideoTitle, demoProfilePicture } from '../utils/constants'
 
 const VideoCard = ({ video: { id:{videoId}, snippet } }) => {
   return (

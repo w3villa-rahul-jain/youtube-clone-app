@@ -1,9 +1,8 @@
 import React from 'react'
-import { Box , CardContent, cardContent, CardMedia, cardMedia, Typography } from '@mui/material';
+import { Box , CardContent, CardMedia,  Typography } from '@mui/material';
 import { CheckCircle } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import { demoProfilePicture } from '../utils/constants';
-import { flexbox } from '@mui/system';
 
 const ChannelCard = ({channelDetail, marginTop}) =>  (
   <Box
