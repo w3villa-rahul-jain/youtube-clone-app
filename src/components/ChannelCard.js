@@ -5,17 +5,20 @@ import { Link } from 'react-router-dom';
 import { demoProfilePicture } from '../utils/constants';
 import { flexbox } from '@mui/system';
 
-const ChannelCard = ({channelDetail}) =>  (
-    <Box
+const ChannelCard = ({channelDetail, marginTop}) =>  (
+  <Box
       sx={{
         boxShadow: 'none',
         borderRadius: '20px',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        width: '308px'
+        width: '308px',
+        margin: 'auto',
+        marginTop
       }}
     >
+      {console.log(channelDetail)}
       <Link to={`/channel/${channelDetail?.id?.channelId}`}>
         <CardContent
           sx={{ display:'flex', flexDirection:'column', justifyContent:"center", textAlign:"center", color:"#fff" }}
