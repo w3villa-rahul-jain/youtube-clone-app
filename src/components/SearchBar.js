@@ -9,7 +9,7 @@ const SearchBar = () => {
     sx={{borderRadius:20, border: "1px solid #e3e3e3", pl:2, boxShadow: "none", overflow:"hidden"  }}>
         <input className='search-bar' placeholder='Search Bar' value=""  onChange={()=>{}} />
         <IconButton type="submit" sx={{p:'5px' , color: "red"}}>
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i className="fa-solid fa-magnifying-glass"></i>
         </IconButton>
     </Paper>
   )
