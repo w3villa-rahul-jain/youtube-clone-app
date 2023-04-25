@@ -42,3 +42,9 @@ a{
 .category-btn:hover{
   background-color: red;
 }
+
+.searchterm{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
